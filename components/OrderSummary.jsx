@@ -302,14 +302,14 @@ export default function OrderSummary({
           </div>
 
           {/* Checkout Button */}
-          <div className="p-5 pt-0">
+          {/* <div className="p-5 pt-0">
             <button className="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-4 rounded-lg transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 group">
               <span>Proceed to Checkout</span>
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
               </svg>
             </button>
-          </div>
+          </div> */}
         </div>
       )}
     </div>

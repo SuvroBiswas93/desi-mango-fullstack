@@ -3,14 +3,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-
   images: {
     unoptimized: true,
   },
+}
 
-  experimental: {
-    esmExternals: "loose",
-  },
-};
-
-export default nextConfig;
+export default nextConfig

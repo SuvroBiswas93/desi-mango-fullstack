@@ -23,7 +23,7 @@ const text = (doc, rgb) => doc.setTextColor(...rgb);
 const draw = (doc, rgb) => doc.setDrawColor(...rgb);
 
 export const generateInvoicePdfBase64 = async (order) => {
-  const { jsPDF } = await import("jspdf/dist/jspdf.es.min.js");
+  const { jsPDF } = await import("jspdf");
   const { default: autoTable } = await import("jspdf-autotable");
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
